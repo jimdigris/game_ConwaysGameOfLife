@@ -1,0 +1,115 @@
+@font-face {
+    font-family: "15545"; 
+    src: url("/assets/font/15545.ttf") format("truetype"); 
+} 
+
+@font-face {
+    font-family: "15146"; 
+    src: url("/assets/font/15146.otf") format("truetype"); 
+} 
+
+
+html, body {
+	margin: 0px;
+	padding: 0px;
+	width: auto;
+	height: 100%;
+	background: #759276;
+	position: relative;
+}
+.container-fluid, .row, .nop {
+	height: 100%;
+}
+
+#canvas {
+    margin: 0 auto;
+	background: #cbdecc;
+}
+
+#world {
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+}
+
+#start, #stop, #restart, #reset, #speedm, #speedp  {
+	position: relative;
+	width: 100%;
+	margin: 5px 0px;
+	font-family: "15146";
+	font-size: 16px;
+    letter-spacing: 1px;
+}
+
+#speedm, #speedp {
+	padding-top: 0px;
+    padding-bottom: 2px;
+}
+
+#help {
+	font-family: "15545";
+    margin: 20px 0px;
+    text-align: center;
+    color: #403e3e;
+	letter-spacing: 1px;
+}
+
+#help a:link {
+	color: #e8e8e8;
+}
+
+#help a:visited {
+	color: #e8e8e8;
+}
+
+#help a:hover {
+	color: #403e3e;
+}
+
+.nop {
+	padding: 0px;
+}
+
+.management h1 {
+	font-family: "15545";
+	color: #2babd2;
+    text-align: center;
+	text-shadow: 2px 2px #3e3c3c;
+}
+
+.des {
+	font-family: "15545";
+    color: #e8941d;
+    text-align: center;
+    font-size: 22px;
+    margin: -5px 0px 10px 0px;
+	text-shadow: 1px 1px #3a3a3a;
+}
+
+.icon {
+	color: #5941a2;
+    margin-bottom: 15px;
+    text-align: center;	
+	font-size: 16px;
+}
+
+#count {
+	font-family: "15545";
+    margin-top: 15px;
+    color: #f0ad4e;
+    letter-spacing: 1px;
+    border-top: 2px solid #57bedd;
+    border-bottom: 2px solid #57bedd;
+    text-align: center;
+    padding: 5px 0px 7px 0px;
+}
+
+@media (max-width: 1170px) {
+	.management h1 {font-size: 30px;}
+}
+
+@media (max-width: 992px) {
+	.management {margin-bottom: 20px;}
+	.management h1 {font-size: 36px;}
+}
+
